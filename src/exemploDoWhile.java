@@ -1,4 +1,4 @@
-import java.util.Random;
+/*import java.util.Random;
 
 public class exemploDoWhile {
     public static void main(String[] args) {
@@ -15,3 +15,10 @@ public class exemploDoWhile {
         return ! atendeu;
     }
 }
+*/
+public class exemploDoWhile {
+    public static void main(String[] args) { 
+        int num = 5, count = 1; do { num += count; System.out.println(num); } while (count <= 3);
+    }
+}
+
